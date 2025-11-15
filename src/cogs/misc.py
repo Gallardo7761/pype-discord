@@ -4,7 +4,6 @@ from discord.commands import SlashCommandGroup
 from settings import EMBED_COLOR, BOT_NAME, VERSION, OWNER_ID, DISCORD_LOGO, BOT_LOGO, GUILD_IDS
 from datetime import datetime
 from random import randint, choice
-import hmtai
 
 class Misc(commands.Cog):
     def __init__(self, bot):
@@ -51,10 +50,7 @@ class Misc(commands.Cog):
 
     @misc.command(name='platano', guild_ids=GUILD_IDS, description="Conoce la medida de tu plátano.")
     async def platano(self, ctx) -> None:
-        if ctx.author.id == OWNER_ID:
-            banana = 21
-        else:
-            banana = randint(-5, 21)
+        banana = randint(-5, 21)
         embed = discord.Embed(
             title=f"El plátano de **{ctx.author}** mide {banana} cm 😳", color=discord.Color(EMBED_COLOR))
         embed.set_image(
@@ -87,20 +83,6 @@ class Misc(commands.Cog):
             embed.set_image(url=pfp)
         else:
             embed.add_field(name='No hay avatar', value='Este usuario no tiene un avatar personalizado.')
-        await ctx.respond(embed=embed)
-
-    @misc.command(name='wallpaper', guild_ids=GUILD_IDS, description="Wallpaper de anime para pc.")
-    async def wallpaper(self, ctx) -> None:
-        embed = discord.Embed(
-            description=f"Aquí tienes tu wallpaper, {ctx.author.mention}", color=discord.Color(EMBED_COLOR))
-        embed.set_image(url=hmtai.get("hmtai", "wallpaper"))
-        await ctx.respond(embed=embed)
-
-    @misc.command(name='mobilewallpaper', guild_ids=GUILD_IDS, description="Genera un wallpaper para tu móvil.")
-    async def mobileWallpaper(self, ctx) -> None:
-        embed = discord.Embed(
-            description=f"Aquí tienes tu wallpaper {ctx.author.mention}", color=discord.Color(EMBED_COLOR))
-        embed.set_image(url=hmtai.get("hmtai", "mobileWallpaper"))
         await ctx.respond(embed=embed)
 
     @misc.command(name='paredes', guild_ids=GUILD_IDS, description="Están por las paredes.")

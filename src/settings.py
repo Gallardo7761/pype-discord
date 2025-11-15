@@ -56,31 +56,79 @@ VARIOS = """
 **/misc bombardeen** - Bombardeen algo.
 """
 INTERACCION = """
-**/inter wave** - Di hola.
-**/inter dance** - Saca los pasos prohibidos.
-**/inter nice** - Noice.
-**/inter nosebleed** - Ecsitante.
-**/inter punch** - Cruzado o uppercut?
-**/inter feed** - Alimenta a alguien.
-**/inter tickle** - Hazle la tortura de las cosquillas a alguien.
-**/inter bite** - Muerde~ a alguien.
-**/inter hug** - Abraza a alguien.
-**/inter kill** - Mata a alguien D:
-**/inter kiss** - Besa a alguien UwU        
-**/inter pat** - Dale palmaditas a alguien.
-**/inter slap** - A dar de hostias a alguien.
-**/inter sleep** - A mimir.
-**/inter cry** - Tas bien? :(
-**/inter cuddle** - Acurrúcate con alguien u.u
-**/inter lick** - Lame a alguien?
+**/wave** - Di hola.
+**/dance** - Saca los pasos prohibidos.
+**/nice** - Noice.
+**/nosebleed** - Ecsitante.
+**/punch** - Cruzado o uppercut?
+**/feed** - Alimenta a alguien.
+**/tickle** - Hazle la tortura de las cosquillas a alguien.
+**/bite** - Muerde~ a alguien.
+**/hug** - Abraza a alguien.
+**/kill** - Mata a alguien D:
+**/kiss** - Besa a alguien UwU
+**/pat** - Dale palmaditas a alguien.
+**/slap** - A dar de hostias a alguien.
+**/sleep** - A mimir.
+**/cry** - Tas bien? :(
+**/cuddle** - Acurrúcate con alguien u.u
+**/lick** - Lame a alguien?
+**/tickle** - Cosquillas a alguien.
+**/blush** - Sonrojarse.
+**/flick** - Toquecito en la frente.
+**/flirt** - Coqueto/a.
+**/handhold** - Agarra la manita.
+**/love** - Expresa amor.
+**/marry** - Propone matrimonio.
+**/nuzzle** - Frotar la carita.
+**/peck** - Besito rápido.
+**/poke** - Pinchazo.
+**/pout** - Hace pucheros.
+**/brofist** - Choque de puños.
+**/highfive** - Choca esos cinco.
+**/bonk** - BONK! A la cárcel del horny.
+**/brofist** - Puños amistosos.
+**/brofist** - (alias brofist)
 """
 INTERACCION_2 = """
-**/inter threaten** - Amenaza a alguien >:)
-**/inter run** - Corre Forrest, corre!
-**/inter fbi** - FBI OPEN UP!
-**/inter spank** - Dale nalgadas a alguien.
-**/inter ship** - Haz un ship entre dos personas.
-**/inter moan** - Aaaaaaah~!
+**/threaten** - Amenaza a alguien >:)
+**/run** - Corre Forrest, corre!
+**/fbi** - FBI OPEN UP!
+**/spank** - Dale nalgadas a alguien.
+**/ship** - Haz un ship entre dos personas.
+**/moan** - Aaaaaaah~!
+**/punch** - Puñetazo.
+**/slap** - Bofetada.
+**/attack** - Ataca a alguien.
+**/bloodsuck** - Chúpale la sangre a alguien (vampiro).
+**/exploding** - Explota.
+**/harass** - Molesta a alguien.
+**/insult** - Insulta suavemente.
+**/punish** - Castiga a alguien.
+**/scold** - Regaña a alguien.
+**/shoot** - Dispara a alguien.
+**/threat** - Amenaza (otra versión).
+**/disgust** - Qué asco.
+**/facedesk** - Se estampó contra la mesa.
+**/facepalm** - Facepalm extremo.
+**/happy** - Expresa felicidad.
+**/icecream** - Come un helado.
+**/nod** - Asiente con la cabeza.
+**/note** - Toma apuntes.
+**/popcorn** - Mira el drama con palomitas.
+**/sad** - Tristón.
+**/scared** - Se asusta.
+**/shrug** - Se encoge de hombros.
+**/sip** - Bebe algo.
+**/smack** - Golpecito rápido.
+**/smirk** - Sonrisa pícara.
+**/sorry** - Pide perdón.
+**/stare** - Mira fijamente.
+**/tease** - Molestia juguetona.
+**/tired** - Estoy cansao.
+**/yawn** - Bosteza.
+**/moan** - Gime.
+**/femboy** - Femboiza a alguien. (comando global: /femboy)
 **/femboy** - Femboiza a alguien.
 """
 NSFW = """

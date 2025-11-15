@@ -56,10 +56,10 @@ class Help(commands.Cog):
                 indice_embed,
                 varios_embed,
                 interaccion_embed,
-                nsfw_embed,
+                #nsfw_embed,
                 matematicas_embed,
-                musica_embed,
-                verificacion_embed,
+                #musica_embed,
+                #verificacion_embed,
                 help_embed
             ],
             loop_pages=True
