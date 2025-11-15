@@ -1,3 +1,8 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
   #####   #######  #     #  #######  ###   #####   #     #  ######      #      #####   ###  #######  #     # 
  #     #  #     #  ##    #  #         #   #     #  #     #  #     #    # #    #     #   #   #     #  ##    # 
  #        #     #  # #   #  #         #   #        #     #  #     #   #   #   #         #   #     #  # #   # 
@@ -8,7 +13,7 @@
                                                                                                              
 # Configuración de parámetros de Discord
 DISCORD_LOGO = "resources/images/logo.png" # png/jpg
-DISCORD_INVITE = "https://discord.gg/wSx82bUrFT" # https://discord.gg/TU_INVITACIÓN
+DISCORD_INVITE = os.getenv("INVITATION") # https://discord.gg/TU_INVITACIÓN
 ADMIN_CHANNEL_ID = 1212498847138447450 # canal para enviar mensajes del bot para admins
 ADMIN_ROLE_ID = 1093755241494749274 # id del rol de admin obtenido con dev mode
 ANNOUNCES_CHANNEL_ID = 1242621232281813082 # Canal para enviar anuncios, normalmente el propio canal de anuncios de una comunidad de Discord.
@@ -21,13 +26,13 @@ GUILD_IDS = [925562720890277948] # id del servidor obtenido con dev mode ⚠️ 
 SUPPORT_ROLE_ID = 0000000000000000000
 
 # Configuración de parámetros del bot
-GUILD_NAME = "MIARMAPLACE" # nombre del servidor
+GUILD_NAME = "miarma.net" # nombre del servidor
 BOT_LOGO ="resources/images/pype.png" # png/jpg
 BOT_NAME = "Pype" # nombre a elegir
-BOT_TOKEN = "MTAyMDg5MzE2MDY0NzQzMDIyNg.GONoVo.ar4hT-d6JPG6Cpq9jJnafVkb3Z9EFsZY9ZVFVY" # token obtenido en la página de Discord Developers
+BOT_TOKEN = os.getenv("TOKEN") # token obtenido en la página de Discord Developers
 VERSION = "1.0 Rewritten" # versión del bot
-WAVELINK_URI = 'ether.lunarnodes.xyz:6969' # ip del servidor de Lavalink
-WAVELINK_PASSWORD = "lunarnodes.xyz" # contraseña del servidor de Lavalink
+WAVELINK_URI = '' # ip del servidor de Lavalink
+WAVELINK_PASSWORD = '' # contraseña del servidor de Lavalink
 SPOTIFY_CLIENT_ID = '' # id de la app de Spotify
 SPOTIFY_CLIENT_SECRET = '' # secret de la app de Spotify
 EMBED_COLOR = 0x2B2D31
