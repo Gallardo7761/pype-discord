@@ -1,3 +1,1 @@
-# pype-discord
-
-Multi-purpose discord bot made with py-cord Discord API wrapper
+Half testing half serious bot for my friends-only discord server
